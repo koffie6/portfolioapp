@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Snapshot matches the snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Dashboard
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Snapshot Chart
+  </Text>
+</View>
+`;

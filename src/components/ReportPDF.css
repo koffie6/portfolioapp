@@ -1,0 +1,13 @@
+.report-pdf {
+  padding: 1rem;
+}
+
+.report-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.report-section {
+  flex: 1 1 300px;
+}

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerformanceChart Snapshot matches the snapshot with sample holdings 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Performance Chart
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Discovery
+     (
+    DSY
+    ) – 
+    100
+     
+    ZAR
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Naspers
+     (
+    NPN
+    ) – 
+    50
+     
+    ZAR
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Shoprite
+     (
+    SHP
+    ) – 
+    75
+     
+    ZAR
+  </Text>
+</View>
+`;

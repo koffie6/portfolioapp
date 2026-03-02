@@ -1,0 +1,93 @@
+/* Light mode (default) */
+.portfolio-container {
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark mode variant */
+.portfolio-container.dark {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+/* Table styling */
+.portfolio-table {
+  margin-top: 2rem;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.portfolio-table th,
+.portfolio-table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.portfolio-table th {
+  background-color: #f2f2f2;
+}
+
+.portfolio-container.dark .portfolio-table th {
+  background-color: #2a2a2a;
+}
+
+/* Performance summary box */
+.performance-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.performance-box.dark {
+  background-color: #2a2a2a;
+  border-color: #555;
+}
+
+/* Button row */
+.button-row {
+  margin-top: 1rem;
+}
+
+.button-row button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #0078d4;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button-row button:hover {
+  background-color: #005a9e;
+}
+
+/* FX error banner */
+.fx-error {
+  color: orange;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+/* Gain/Loss coloring */
+.gain {
+  color: green;
+  font-weight: bold;
+}
+
+.loss {
+  color: red;
+  font-weight: bold;
+}
+
+/* File input label */
+.file-label {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}

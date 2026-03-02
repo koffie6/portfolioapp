@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SentimentGauge Snapshot matches snapshot with sentiment value 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Sentiment Gauge
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+      }
+    }
+  >
+    75
+    % Positive
+  </Text>
+</View>
+`;

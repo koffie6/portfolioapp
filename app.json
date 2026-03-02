@@ -1,4 +1,50 @@
 {
-  "name": "PortfolioApp",
-  "displayName": "PortfolioApp"
+  "expo": {
+    "name": "PortfolioApp",
+    "slug": "portfolioapp",
+    "version": "1.0.0",
+    "scheme": "portfolioapp",
+    "sdkVersion": "55.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": true,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.gerh.portfolioapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.gerh.portfolioapp",
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2efc0a1-f4e6-4aca-a0d3-2b8767f664b8"
+      }
+    }
+  }
 }

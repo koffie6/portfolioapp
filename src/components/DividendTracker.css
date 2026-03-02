@@ -1,0 +1,18 @@
+.dividend-tracker {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+.dividend-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.dividend-net {
+  color: green;
+}
+
+.dividend-total {
+  margin-top: 1rem;
+}

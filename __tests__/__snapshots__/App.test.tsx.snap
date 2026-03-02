@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Dashboard
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Default Chart
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DividendTracker Snapshot matches the snapshot with no dividends 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Dividend Tracker
+  </Text>
+</View>
+`;
+
+exports[`DividendTracker Snapshot matches the snapshot with sample dividends 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Dividend Tracker
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    DSY
+     – Gross: 
+    150
+     
+    ZAR
+    , Tax: 
+    29.5
+    , Net: 
+    120.5
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    NPN
+     – Gross: 
+    300
+     
+    ZAR
+    , Tax: 
+    50
+    , Net: 
+    250
+  </Text>
+</View>
+`;

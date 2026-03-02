@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportPDF Snapshot matches the snapshot 1`] = `
+<div
+  className="report-pdf"
+>
+  <h2>
+    Portfolio Report for 
+    Gerhard
+  </h2>
+  <div
+    className="report-grid"
+  >
+    <div
+      className="report-section"
+    >
+      <h3>
+        Cash Flow
+      </h3>
+      <View
+        style={
+          {
+            "backgroundColor": "#fff",
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 12,
+            }
+          }
+        >
+          Cash Flow Chart
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          deposit
+           – 
+          1000
+           
+          ZAR
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          withdrawal
+           – 
+          -500
+           
+          ZAR
+        </Text>
+      </View>
+    </div>
+    <div
+      className="report-section"
+    >
+      <h3>
+        Performance
+      </h3>
+      <View
+        style={
+          {
+            "backgroundColor": "#fff",
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 12,
+            }
+          }
+        >
+          Performance Chart
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Discovery
+           (
+          DSY
+          ) – 
+          100
+           
+          ZAR
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Naspers
+           (
+          NPN
+          ) – 
+          50
+           
+          ZAR
+        </Text>
+      </View>
+    </div>
+    <div
+      className="report-section"
+    >
+      <h3>
+        Sector Allocation
+      </h3>
+      <View
+        style={
+          {
+            "backgroundColor": "#fff",
+            "padding": 16,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "marginBottom": 12,
+            }
+          }
+        >
+          Sector Chart
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Finance
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 14,
+              "marginBottom": 4,
+            }
+          }
+        >
+          Technology
+        </Text>
+      </View>
+    </div>
+  </div>
+  <div
+    className="summary"
+  >
+    <p>
+      Total Value: 
+      17000
+    </p>
+    <p>
+      Total Cost: 
+      15000
+    </p>
+    <p>
+      Total Gain/Loss: 
+      2000
+    </p>
+  </div>
+</div>
+`;
