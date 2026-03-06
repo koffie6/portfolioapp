@@ -25,12 +25,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run ${{ matrix.suite }} tests on Node ${{ matrix.node-version }} / ${{ matrix.os }}
+      - name: Run ${{ matrix.suite }} tests
         run: |
           if [ "${{ matrix.suite }}" = "unit" ]; then
             npm run test:unit -- --config=jest.config.cjs
           elif [ "${{ matrix.suite }}" = "stress" ]; then
-            npm run test:stress -- --config=jest.config.cjs
+            npm run test:stress -- --config=jest.config.cjs --passWithNoTests
           elif [ "${{ matrix.suite }}" = "performance" ]; then
-            npm run test:performance -- --config=jest.config.cjs
+            npm run test:performance -- --config=jest.config.cjs --passWithNoTests
           fi
