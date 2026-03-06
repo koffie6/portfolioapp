@@ -7,32 +7,23 @@ on:
     branches: [main]
 
 jobs:
-  unit-tests:
+  tests:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        suite: [unit, stress, performance]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: npm ci
-      - run: npm run test:unit -- --config=jest.config.cjs
-
-  stress-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm ci
-      - run: npm run test:stress -- --config=jest.config.cjs
-
-  performance-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-      - run: npm ci
-      - run: npm run test:performance -- --config=jest.config.cjs
+      - name: Run ${{ matrix.suite }} tests
+        run: |
+          if [ "${{ matrix.suite }}" = "unit" ]; then
+            npm run test:unit -- --config=jest.config.cjs
+          elif [ "${{ matrix.suite }}" = "stress" ]; then
+            npm run test:stress -- --config=jest.config.cjs
+          elif [ "${{ matrix.suite }}" = "performance" ]; then
+            npm run test:performance -- --config=jest.config.cjs
+          fi
