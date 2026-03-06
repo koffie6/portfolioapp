@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`App Integration Snapshot matches the snapshot for the full App tree 1`] = `
+<View>
+  <Text>
+    Dashboard
+  </Text>
+  <View>
+    <Text>
+      Sentiment Gauge
+    </Text>
+    <Text>
+      No data available
+    </Text>
+  </View>
+  <View>
+    <Text>
+      Dividend Tracker
+    </Text>
+    <Text>
+      No data available
+    </Text>
+  </View>
+  <View>
+    <Text>
+      Cash Flow Chart
+    </Text>
+    <Text>
+      No data available
+    </Text>
+  </View>
+</View>
+`;

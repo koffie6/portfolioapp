@@ -1,14 +1,27 @@
-import React from "react";
-import renderer from "react-test-renderer";
-import Dashboard from "./Dashboard";
+import { render } from '@testing-library/react-native';
+import Dashboard from './Dashboard';
 
-describe("Dashboard Snapshot", () => {
-  it("matches the snapshot", () => {
-    const chartData = {
-      datasets: [{ label: "Snapshot Chart", data: [10, 20, 30] }],
+describe('Dashboard Snapshot', () => {
+  it('matches snapshot with empty state', () => {
+    const tree = render(<Dashboard />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('matches snapshot with populated props', () => {
+    const mockProps = {
+      sentiment: 75,
+      dividends: [
+        {
+          date: '2026-03-01',
+          amount: 250.0,
+          ticker: 'TICK1',
+          description: 'Dividend 1',
+        },
+      ],
+      cashFlows: [{ date: '2026-03-01', inflow: 2000, outflow: 500 }],
     };
 
-    const tree = renderer.create(<Dashboard chartData={chartData} />).toJSON();
+    const tree = render(<Dashboard {...mockProps} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

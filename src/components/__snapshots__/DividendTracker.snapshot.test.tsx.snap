@@ -1,85 +1,28 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`DividendTracker Snapshot matches the snapshot with no dividends 1`] = `
-<View
-  style={
-    {
-      "backgroundColor": "#fff",
-      "padding": 16,
-    }
-  }
->
-  <Text
-    style={
-      {
-        "fontSize": 18,
-        "fontWeight": "bold",
-        "marginBottom": 12,
-      }
-    }
-  >
+exports[`DividendTracker Snapshot matches snapshot with empty state 1`] = `
+<View>
+  <Text>
     Dividend Tracker
+  </Text>
+  <Text>
+    No data available
   </Text>
 </View>
 `;
 
-exports[`DividendTracker Snapshot matches the snapshot with sample dividends 1`] = `
-<View
-  style={
-    {
-      "backgroundColor": "#fff",
-      "padding": 16,
-    }
-  }
->
-  <Text
-    style={
-      {
-        "fontSize": 18,
-        "fontWeight": "bold",
-        "marginBottom": 12,
-      }
-    }
-  >
+exports[`DividendTracker Snapshot matches snapshot with valid dividends 1`] = `
+<View>
+  <Text>
     Dividend Tracker
   </Text>
-  <Text
-    style={
-      {
-        "color": "#333",
-        "fontSize": 14,
-        "marginBottom": 4,
-      }
-    }
-  >
-    DSY
-     – Gross: 
-    150
-     
-    ZAR
-    , Tax: 
-    29.5
-    , Net: 
-    120.5
-  </Text>
-  <Text
-    style={
-      {
-        "color": "#333",
-        "fontSize": 14,
-        "marginBottom": 4,
-      }
-    }
-  >
-    NPN
-     – Gross: 
-    300
-     
-    ZAR
-    , Tax: 
-    50
-    , Net: 
-    250
+  <Text>
+    2026-03-01
+     — 
+    TICK0
+    : 
+    R123.45
+     Dividend 0
   </Text>
 </View>
 `;

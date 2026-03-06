@@ -1,20 +1,17 @@
-import React from "react";
-import { render } from "@testing-library/react-native";
-import CashFlowChart from "./CashFlowChart";
-import { ParsedCashFlow } from "../utils/parseTransactionHistory";
+import { render } from '@testing-library/react-native';
+import CashFlowChart from './CashFlowChart';
 
-describe("CashFlowChart Component", () => {
-  it("renders with cash flow type", () => {
-    const cashFlows: ParsedCashFlow[] = [
+describe('CashFlowChart Component', () => {
+  it('renders with cash flow type', () => {
+    const cashFlows = [
       {
-        type: "Deposit",
-        amount: 1000,
-        date: "2025-02-01",
-        currency: "USD",
+        date: '2026-03-01',
+        inflow: 1000, // ✅ provide actual inflow
+        outflow: 0,
       },
     ];
 
     const { getByText } = render(<CashFlowChart cashFlows={cashFlows} />);
-    expect(getByText("Deposit – 1000 USD")).toBeTruthy();
+    expect(getByText('Deposit – 1000 USD')).toBeTruthy();
   });
 });

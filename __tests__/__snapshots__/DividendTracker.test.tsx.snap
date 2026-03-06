@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`DividendTracker Component matches snapshot 1`] = `
+<View>
+  <Text>
+    Dividend Tracker
+  </Text>
+  <Text>
+    2025-01-15
+     — 
+    AAPL
+    : 
+    R250.00
+  </Text>
+  <Text>
+    2025-02-20
+     — 
+    MSFT
+    : 
+    R180.50
+  </Text>
+</View>
+`;

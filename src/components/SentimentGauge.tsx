@@ -1,24 +1,30 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { Text, View } from 'react-native';
 
-interface Props {
-  sentiment: number; // 0 to 1
-}
-
-const SentimentGauge: React.FC<Props> = ({ sentiment }) => {
-  const percentage = Math.round(sentiment * 100);
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Sentiment Gauge</Text>
-      <Text style={styles.value}>{percentage}% Positive</Text>
-    </View>
-  );
+type SentimentGaugeProps = {
+  sentiment?: number | null;
+  accessibilityLabel?: string;
 };
 
-const styles = StyleSheet.create({
-  container: { padding: 16, backgroundColor: "#fff" },
-  title: { fontSize: 18, fontWeight: "bold", marginBottom: 12 },
-  value: { fontSize: 14, color: "#333" },
-});
+export default function SentimentGauge({
+  sentiment,
+  accessibilityLabel,
+}: SentimentGaugeProps): JSX.Element {
+  let displayValue: string;
 
-export default SentimentGauge;
+  if (sentiment === undefined || sentiment === null) {
+    displayValue = 'No data available';
+  } else {
+    const percentage =
+      sentiment <= 1 && sentiment >= 0
+        ? Math.round(sentiment * 100)
+        : sentiment;
+    displayValue = `${percentage}% Positive`;
+  }
+
+  return (
+    <View accessibilityLabel={accessibilityLabel}>
+      <Text>Sentiment Gauge</Text>
+      <Text>{displayValue}</Text>
+    </View>
+  );
+}

@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`PortfolioSummaryCard Snapshot matches snapshot with empty state 1`] = `
+<View
+  style={
+    {
+      "borderColor": "#ccc",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "marginVertical": 8,
+      "padding": 12,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Portfolio Summary
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#888",
+        "fontSize": 14,
+      }
+    }
+  >
+    No data available
+  </Text>
+</View>
+`;
+
+exports[`PortfolioSummaryCard Snapshot matches snapshot with populated holdings 1`] = `
+<View
+  style={
+    {
+      "borderColor": "#ccc",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "marginVertical": 8,
+      "padding": 12,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Portfolio Summary
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#888",
+        "fontSize": 14,
+      }
+    }
+  >
+    No data available
+  </Text>
+</View>
+`;

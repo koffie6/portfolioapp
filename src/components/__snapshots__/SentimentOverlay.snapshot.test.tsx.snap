@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
 exports[`SentimentOverlay Snapshot matches the snapshot with sentiment gauges 1`] = `
 <View
@@ -15,35 +15,12 @@ exports[`SentimentOverlay Snapshot matches the snapshot with sentiment gauges 1`
     }
   }
 >
-  <View
-    style={
-      {
-        "backgroundColor": "#fff",
-        "padding": 16,
-      }
-    }
-  >
-    <Text
-      style={
-        {
-          "fontSize": 18,
-          "fontWeight": "bold",
-          "marginBottom": 12,
-        }
-      }
-    >
+  <View>
+    <Text>
       Sentiment Gauge
     </Text>
-    <Text
-      style={
-        {
-          "color": "#333",
-          "fontSize": 14,
-        }
-      }
-    >
-      65
-      % Positive
+    <Text>
+      65% Positive
     </Text>
   </View>
 </View>

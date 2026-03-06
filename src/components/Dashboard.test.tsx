@@ -1,14 +1,16 @@
-import React from "react";
-import { render } from "@testing-library/react-native";
-import Dashboard from "./Dashboard";
+import { render } from '@testing-library/react-native';
+import Dashboard from './Dashboard';
 
-describe("Dashboard Component", () => {
-  it("renders chart with dataset label text", () => {
-    const chartData = {
-      datasets: [{ label: "Portfolio Performance", data: [1, 2, 3] }],
-    };
+describe('Dashboard Component', () => {
+  it('renders with empty state labels', () => {
+    const { getByText, getAllByText } = render(<Dashboard />);
+    expect(getByText('Dashboard')).toBeTruthy();
+    expect(getByText('Sentiment Gauge')).toBeTruthy();
+    expect(getByText('Dividend Tracker')).toBeTruthy();
+    expect(getByText('Cash Flow Chart')).toBeTruthy();
 
-    const { getByText } = render(<Dashboard chartData={chartData} />);
-    expect(getByText("Portfolio Performance")).toBeTruthy();
+    // Multiple "No data available" messages (one per subcomponent)
+    const emptyStates = getAllByText('No data available');
+    expect(emptyStates.length).toBeGreaterThanOrEqual(3);
   });
 });

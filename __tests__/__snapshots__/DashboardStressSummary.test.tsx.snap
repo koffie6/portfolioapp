@@ -1,0 +1,2775 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dashboard Stress Summary handles chaotic dataset across all components 1`] = `
+[
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Performance Chart
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      NEG
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      ZERO
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      HIGH
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      MIX
+      ) – 
+       
+    </Text>
+  </View>,
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Sector Chart
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Technology
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Finance
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Energy
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Healthcare
+    </Text>
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,0,0,0.3)",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View>
+      <Text>
+        Sentiment Gauge
+      </Text>
+      <Text>
+        -0.25% Positive
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "marginVertical": 8,
+      }
+    }
+  >
+    <TextInput
+      style={
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "padding": 8,
+        }
+      }
+    />
+  </View>,
+]
+`;
+
+exports[`Dashboard Stress Summary matches snapshot for large dataset case 1`] = `
+[
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Performance Chart
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK0
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK1
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK2
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK3
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK4
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK5
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK6
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK7
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK8
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK9
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK10
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK11
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK12
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK13
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK14
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK15
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK16
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK17
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK18
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK19
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK20
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK21
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK22
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK23
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK24
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK25
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK26
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK27
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK28
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK29
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK30
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK31
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK32
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK33
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK34
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK35
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK36
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK37
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK38
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK39
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK40
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK41
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK42
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK43
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK44
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK45
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK46
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK47
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK48
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK49
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK50
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK51
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK52
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK53
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK54
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK55
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK56
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK57
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK58
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK59
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK60
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK61
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK62
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK63
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK64
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK65
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK66
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK67
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK68
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK69
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK70
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK71
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK72
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK73
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK74
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK75
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK76
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK77
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK78
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK79
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK80
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK81
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK82
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK83
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK84
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK85
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK86
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK87
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK88
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK89
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK90
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK91
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK92
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK93
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK94
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK95
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK96
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK97
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK98
+      ) – 
+       
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+       (
+      TICK99
+      ) – 
+       
+    </Text>
+  </View>,
+  <View
+    style={
+      {
+        "backgroundColor": "#fff",
+        "padding": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "marginBottom": 12,
+        }
+      }
+    >
+      Sector Chart
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector0
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector1
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector2
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector3
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#333",
+          "fontSize": 14,
+          "marginBottom": 4,
+        }
+      }
+    >
+      Sector4
+    </Text>
+  </View>,
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "rgba(0,0,0,0.3)",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View>
+      <Text>
+        Sentiment Gauge
+      </Text>
+      <Text>
+        75% Positive
+      </Text>
+    </View>
+  </View>,
+  <View
+    style={
+      {
+        "marginVertical": 8,
+      }
+    }
+  >
+    <TextInput
+      style={
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "fontSize": 16,
+          "padding": 8,
+        }
+      }
+    />
+  </View>,
+]
+`;

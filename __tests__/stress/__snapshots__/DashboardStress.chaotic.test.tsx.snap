@@ -1,0 +1,724 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dashboard Stress - Chaotic Dataset renders with chaotic dataset 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Performance Chart
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC0
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC1
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC2
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC3
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC4
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC5
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC6
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC7
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC8
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC9
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC10
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC11
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC12
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC13
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC14
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC15
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC16
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC17
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC18
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC19
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC20
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC21
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC22
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC23
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC24
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC25
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC26
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC27
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC28
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC29
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC30
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC31
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC32
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC33
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC34
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC35
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC36
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC37
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC38
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC39
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC40
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC41
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC42
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC43
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC44
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC45
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC46
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC47
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC48
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    CHAOTIC49
+    ) – 
+     
+  </Text>
+</View>
+`;

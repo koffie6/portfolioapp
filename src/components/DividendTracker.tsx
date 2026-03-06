@@ -1,28 +1,43 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
-import { ParsedDividend } from "../utils/parseTransactionHistory";
+import { Text, View } from 'react-native';
 
-interface Props {
-  dividends: ParsedDividend[];
-}
-
-const DividendTracker: React.FC<Props> = ({ dividends }) => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Dividend Tracker</Text>
-      {dividends.map((d, idx) => (
-        <Text key={idx} style={styles.dividendLabel}>
-          {d.ticker} – Gross: {d.gross} {d.currency}, Tax: {d.tax}, Net: {d.net}
-        </Text>
-      ))}
-    </View>
-  );
+export type ParsedDividend = {
+  date: string;
+  amount?: number;
+  ticker: string;
+  description?: string;
+  cashManagementFee?: number;
+  vat?: number;
 };
 
-const styles = StyleSheet.create({
-  container: { padding: 16, backgroundColor: "#fff" },
-  title: { fontSize: 18, fontWeight: "bold", marginBottom: 12 },
-  dividendLabel: { fontSize: 14, color: "#333", marginBottom: 4 },
-});
+type DividendTrackerProps = {
+  dividends?: ParsedDividend[] | null;
+  accessibilityLabel?: string;
+};
 
-export default DividendTracker;
+export default function DividendTracker({
+  dividends,
+  accessibilityLabel,
+}: DividendTrackerProps): JSX.Element {
+  const safeDividends = dividends ?? [];
+
+  return (
+    <View accessibilityLabel={accessibilityLabel}>
+      <Text>Dividend Tracker</Text>
+      {safeDividends.length === 0 ? (
+        <Text>No data available</Text>
+      ) : (
+        safeDividends.map((d, idx) => {
+          const amountText =
+            typeof d.amount === 'number' ? `R${d.amount.toFixed(2)}` : 'R0.00';
+          const descriptionText = d.description ? ` ${d.description}` : '';
+          return (
+            <Text key={idx}>
+              {d.date} — {d.ticker}: {amountText}
+              {descriptionText}
+            </Text>
+          );
+        })
+      )}
+    </View>
+  );
+}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`SentimentGauge Component matches snapshot 1`] = `
+<View>
+  <Text>
+    Sentiment Gauge
+  </Text>
+  <Text>
+    72% Positive
+  </Text>
+</View>
+`;

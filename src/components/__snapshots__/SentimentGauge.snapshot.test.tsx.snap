@@ -1,35 +1,23 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
 
-exports[`SentimentGauge Snapshot matches snapshot with sentiment value 1`] = `
-<View
-  style={
-    {
-      "backgroundColor": "#fff",
-      "padding": 16,
-    }
-  }
->
-  <Text
-    style={
-      {
-        "fontSize": 18,
-        "fontWeight": "bold",
-        "marginBottom": 12,
-      }
-    }
-  >
+exports[`SentimentGauge Snapshot matches snapshot with empty state 1`] = `
+<View>
+  <Text>
     Sentiment Gauge
   </Text>
-  <Text
-    style={
-      {
-        "color": "#333",
-        "fontSize": 14,
-      }
-    }
-  >
-    75
-    % Positive
+  <Text>
+    No data available
+  </Text>
+</View>
+`;
+
+exports[`SentimentGauge Snapshot matches snapshot with valid sentiment 1`] = `
+<View>
+  <Text>
+    Sentiment Gauge
+  </Text>
+  <Text>
+    50% Positive
   </Text>
 </View>
 `;

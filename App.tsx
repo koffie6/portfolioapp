@@ -1,25 +1,24 @@
-import React from "react";
-import { SafeAreaView, StyleSheet } from "react-native";
-import Dashboard from "./src/components/Dashboard";
+import Dashboard from './src/components/Dashboard';
 
-const App: React.FC = () => {
-  // Provide default chartData so Dashboard always has valid props
-  const chartData = {
-    datasets: [{ label: "Default Chart", data: [5, 10, 15] }],
-  };
-
-  return (
-    <SafeAreaView style={styles.container}>
-      <Dashboard chartData={chartData} />
-    </SafeAreaView>
-  );
+type AppProps = {
+  sentiment?: number | null;
+  dividends?:
+    | {
+        date: string;
+        amount: number;
+        ticker: string;
+        description: string;
+      }[]
+    | null;
+  cashFlows?:
+    | {
+        date: string;
+        inflow: number;
+        outflow: number;
+      }[]
+    | null;
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-  },
-});
-
-export default App;
+export default function App(props: AppProps) {
+  return <Dashboard {...props} />;
+}

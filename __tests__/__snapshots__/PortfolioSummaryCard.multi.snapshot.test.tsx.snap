@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`PortfolioSummaryCard Multi-Holding Snapshot renders correctly with multiple holdings and summary 1`] = `
+<View
+  style={
+    {
+      "borderColor": "#ccc",
+      "borderRadius": 6,
+      "borderWidth": 1,
+      "marginVertical": 8,
+      "padding": 12,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Portfolio Summary
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Total Market Value: R
+    20000.00
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Total Cost Basis: R
+    15000.00
+  </Text>
+  <Text
+    style={
+      {
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+    Total Gain/Loss: R
+    5000.00
+  </Text>
+  <View
+    style={
+      {
+        "borderTopColor": "#eee",
+        "borderTopWidth": 1,
+        "marginTop": 8,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      AAPL
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Shares: 
+      10
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Avg Price: R
+      150.00
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Current Price: R
+      175.00
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "borderTopColor": "#eee",
+        "borderTopWidth": 1,
+        "marginTop": 8,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      MSFT
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Shares: 
+      5
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Avg Price: R
+      250.00
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Current Price: R
+      300.00
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "borderTopColor": "#eee",
+        "borderTopWidth": 1,
+        "marginTop": 8,
+        "paddingTop": 4,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 16,
+          "fontWeight": "600",
+        }
+      }
+    >
+      TSLA
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Shares: 
+      2
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Avg Price: R
+      700.00
+    </Text>
+    <Text
+      style={
+        {
+          "fontSize": 14,
+        }
+      }
+    >
+      Current Price: R
+      800.00
+    </Text>
+  </View>
+</View>
+`;

@@ -1,5 +1,5 @@
+// .prettierrc.cjs
 module.exports = {
-  arrowParens: 'avoid',
   singleQuote: true,
   trailingComma: 'all',
 };

@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src",
+    "test-utils",
+    "__tests__",
+    "jest.setup.tsx",
+    "jest.config.cjs"
+  ]
+}

@@ -1,47 +1,30 @@
-import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+// src/components/Dashboard.tsx
+import { Text, View } from 'react-native';
+import CashFlowChart from './CashFlowChart';
+import DividendTracker from './DividendTracker';
+import SentimentGauge from './SentimentGauge';
 
-interface Dataset {
-  label: string;
-  data: number[];
-}
-
-interface ChartData {
-  datasets: Dataset[];
-}
-
-interface Props {
-  chartData: ChartData;
-}
-
-const Dashboard: React.FC<Props> = ({ chartData }) => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Dashboard</Text>
-      {chartData.datasets.map((ds, idx) => (
-        <Text key={idx} style={styles.datasetLabel}>
-          {ds.label}
-        </Text>
-      ))}
-    </View>
-  );
+type DashboardProps = {
+  sentiment?: number | null;
+  dividends?: any[] | null;
+  cashFlows?: any[] | null;
 };
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 16,
-    backgroundColor: "#fff",
-  },
-  title: {
-    fontSize: 18,
-    fontWeight: "bold",
-    marginBottom: 12,
-  },
-  datasetLabel: {
-    fontSize: 14,
-    color: "#333",
-    marginBottom: 4,
-  },
-});
+export default function Dashboard({
+  sentiment,
+  dividends,
+  cashFlows,
+}: DashboardProps): JSX.Element {
+  const safeSentiment = sentiment ?? null;
+  const safeDividends = dividends ?? [];
+  const safeCashFlows = cashFlows ?? [];
 
-export default Dashboard;
+  return (
+    <View>
+      <Text>Dashboard</Text>
+      <SentimentGauge sentiment={safeSentiment} />
+      <DividendTracker dividends={safeDividends} />
+      <CashFlowChart cashFlows={safeCashFlows} />
+    </View>
+  );
+}

@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Dashboard Stress - Normal Dataset renders with normal dataset 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fff",
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 12,
+      }
+    }
+  >
+    Performance Chart
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL0
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL1
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL2
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL3
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL4
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL5
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL6
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL7
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL8
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL9
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL10
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL11
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL12
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL13
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL14
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL15
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL16
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL17
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL18
+    ) – 
+     
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 14,
+        "marginBottom": 4,
+      }
+    }
+  >
+     (
+    NORMAL19
+    ) – 
+     
+  </Text>
+</View>
+`;
