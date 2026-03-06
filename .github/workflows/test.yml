@@ -11,14 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
+        node-version: [18, 20]
         suite: [unit, stress, performance]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: ${{ matrix.node-version }}
       - run: npm ci
-      - name: Run ${{ matrix.suite }} tests
+      - name: Run ${{ matrix.suite }} tests on Node ${{ matrix.node-version }}
         run: |
           if [ "${{ matrix.suite }}" = "unit" ]; then
             npm run test:unit -- --config=jest.config.cjs
