@@ -1,23 +1,24 @@
 {
-  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "types": ["jest", "expo"]
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-native",
+    "strict": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["react-native"],
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "src",
-    "App.tsx",
-    "index.ts",
-    "index.tsx",
-    "jest.setup.tsx",
-    "__tests__"
-  ],
+  "include": ["src", "__tests__", "index.ts", "index.tsx"],
   "exclude": [
     "node_modules",
-    "dist",
-    "build"
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.cjs"
   ]
 }
