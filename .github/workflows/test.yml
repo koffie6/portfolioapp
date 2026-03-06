@@ -8,18 +8,24 @@ on:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
         node-version: [18, 20]
         suite: [unit, stress, performance]
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - name: Run ${{ matrix.suite }} tests on Node ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ${{ matrix.suite }} tests on Node ${{ matrix.node-version }} / ${{ matrix.os }}
         run: |
           if [ "${{ matrix.suite }}" = "unit" ]; then
             npm run test:unit -- --config=jest.config.cjs
