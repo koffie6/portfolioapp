@@ -1,3 +1,4 @@
+# .github/workflows/test.yml
 name: CI Tests
 
 on:
@@ -25,7 +26,15 @@ jobs:
         run: npm ci
 
       - name: Run sanity tests
-        run: npm run test:sanity
+        run: npm run test:sanity -- --ci --json --outputFile=jest-results.json
+
+      - name: Upload Jest results & snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: sanity-results
+          path: |
+            jest-results.json
+            __tests__/**/*.snap
 
   stress-tests:
     name: Stress Tests
@@ -45,4 +54,12 @@ jobs:
         run: npm ci
 
       - name: Run stress tests
-        run: npm run test:stress
+        run: npm run test:stress -- --ci --json --outputFile=jest-results.json
+
+      - name: Upload Jest results & snapshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: stress-results
+          path: |
+            jest-results.json
+            __tests__/**/*.snap
