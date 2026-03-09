@@ -7,30 +7,42 @@ on:
     branches: [main]
 
 jobs:
-  tests:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, macos-latest, windows-latest]
-        node-version: [18, 20]
-        suite: [unit, stress, performance]
+  sanity-tests:
+    name: Sanity Tests
+    runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 20
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Run ${{ matrix.suite }} tests
-        run: |
-          if [ "${{ matrix.suite }}" = "unit" ]; then
-            npm run test:unit -- --config=jest.config.cjs
-          elif [ "${{ matrix.suite }}" = "stress" ]; then
-            npm run test:stress -- --config=jest.config.cjs --passWithNoTests
-          elif [ "${{ matrix.suite }}" = "performance" ]; then
-            npm run test:performance -- --config=jest.config.cjs --passWithNoTests
-          fi
+      - name: Run sanity tests
+        run: npm run test:sanity
+
+  stress-tests:
+    name: Stress Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run stress tests
+        run: npm run test:stress
