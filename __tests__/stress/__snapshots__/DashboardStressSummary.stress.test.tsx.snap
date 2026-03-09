@@ -1,0 +1,814 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DashboardStressSummary stress tests detects snapshot drift with chaotic dataset 1`] = `
+<View
+  style={
+    {
+      "padding": 12,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "marginBottom": 8,
+      }
+    }
+  >
+    Dashboard Stress Summary
+  </Text>
+  <RCTScrollView
+    data={
+      [
+        {
+          "change": -0.43793839512048294,
+          "id": "holding-0",
+          "name": "Asset 0",
+          "value": 1026.1745315070714,
+        },
+        {
+          "change": -1.1580059833082457,
+          "id": "holding-1",
+          "name": "Asset 1",
+          "value": 1136.819707383514,
+        },
+        {
+          "change": 8.487922578790702,
+          "id": "holding-2",
+          "name": "Asset 2",
+          "value": 3696.9461411951474,
+        },
+        {
+          "change": 5.828605110492013,
+          "id": "holding-3",
+          "name": "Asset 3",
+          "value": 409.53006818736924,
+        },
+        {
+          "change": 8.479952684680079,
+          "id": "holding-4",
+          "name": "Asset 4",
+          "value": 8295.725680626962,
+        },
+        {
+          "change": -3.4755833179562146,
+          "id": "holding-5",
+          "name": "Asset 5",
+          "value": 540.6644428619201,
+        },
+        {
+          "change": 5.632396908573631,
+          "id": "holding-6",
+          "name": "Asset 6",
+          "value": 9007.870819435571,
+        },
+        {
+          "change": 7.484345820907916,
+          "id": "holding-7",
+          "name": "Asset 7",
+          "value": 2442.233637061466,
+        },
+        {
+          "change": -1.1109953793962957,
+          "id": "holding-8",
+          "name": "Asset 8",
+          "value": 4275.992569720157,
+        },
+        {
+          "change": 8.100033679171425,
+          "id": "holding-9",
+          "name": "Asset 9",
+          "value": 7963.82408326973,
+        },
+        {
+          "change": -3.751936004760834,
+          "id": "holding-10",
+          "name": "Asset 10",
+          "value": 3252.8048716635217,
+        },
+        {
+          "change": 7.796087944975474,
+          "id": "holding-11",
+          "name": "Asset 11",
+          "value": 4101.107661867449,
+        },
+        {
+          "change": 2.145103566322555,
+          "id": "holding-12",
+          "name": "Asset 12",
+          "value": 8638.89110385567,
+        },
+        {
+          "change": 7.288956528771302,
+          "id": "holding-13",
+          "name": "Asset 13",
+          "value": 7106.021585512079,
+        },
+        {
+          "change": 9.35560947193046,
+          "id": "holding-14",
+          "name": "Asset 14",
+          "value": 1852.190828881739,
+        },
+        {
+          "change": -8.839869776808452,
+          "id": "holding-15",
+          "name": "Asset 15",
+          "value": 1060.9182878814781,
+        },
+        {
+          "change": -0.20593731438153906,
+          "id": "holding-16",
+          "name": "Asset 16",
+          "value": 8231.639598007177,
+        },
+        {
+          "change": 2.690014881774929,
+          "id": "holding-17",
+          "name": "Asset 17",
+          "value": 8579.228465813727,
+        },
+        {
+          "change": -7.888064942207493,
+          "id": "holding-18",
+          "name": "Asset 18",
+          "value": 4901.492617575523,
+        },
+        {
+          "change": -9.253800217981292,
+          "id": "holding-19",
+          "name": "Asset 19",
+          "value": 8008.648955570259,
+        },
+        {
+          "change": -6.998630062750677,
+          "id": "holding-20",
+          "name": "Asset 20",
+          "value": 8942.891510525818,
+        },
+        {
+          "change": 1.6704327226284565,
+          "id": "holding-21",
+          "name": "Asset 21",
+          "value": 9407.28449395841,
+        },
+        {
+          "change": -6.501308627983979,
+          "id": "holding-22",
+          "name": "Asset 22",
+          "value": 2349.126756038704,
+        },
+        {
+          "change": -6.259838294974656,
+          "id": "holding-23",
+          "name": "Asset 23",
+          "value": 5235.886084307204,
+        },
+        {
+          "change": 8.759189848924184,
+          "id": "holding-24",
+          "name": "Asset 24",
+          "value": 3721.0630931834853,
+        },
+        {
+          "change": -9.994028221507168,
+          "id": "holding-25",
+          "name": "Asset 25",
+          "value": 3079.926825676773,
+        },
+        {
+          "change": -7.369194532072876,
+          "id": "holding-26",
+          "name": "Asset 26",
+          "value": 9202.181870792185,
+        },
+        {
+          "change": 1.3757113619537353,
+          "id": "holding-27",
+          "name": "Asset 27",
+          "value": 6035.52259850342,
+        },
+        {
+          "change": -4.080000364524743,
+          "id": "holding-28",
+          "name": "Asset 28",
+          "value": 428.44415610199917,
+        },
+        {
+          "change": -4.108912393703714,
+          "id": "holding-29",
+          "name": "Asset 29",
+          "value": 2326.2470715434238,
+        },
+        {
+          "change": -1.197744879930589,
+          "id": "holding-30",
+          "name": "Asset 30",
+          "value": 3477.776245807482,
+        },
+        {
+          "change": -0.8209691213332482,
+          "id": "holding-31",
+          "name": "Asset 31",
+          "value": 5703.837553309168,
+        },
+        {
+          "change": -5.573831768283015,
+          "id": "holding-32",
+          "name": "Asset 32",
+          "value": 8078.849509630406,
+        },
+        {
+          "change": 5.4578604726991475,
+          "id": "holding-33",
+          "name": "Asset 33",
+          "value": 3928.6989853510513,
+        },
+        {
+          "change": 8.757974960391874,
+          "id": "holding-34",
+          "name": "Asset 34",
+          "value": 7699.659337875053,
+        },
+        {
+          "change": -4.141765553776873,
+          "id": "holding-35",
+          "name": "Asset 35",
+          "value": 1528.0962833059907,
+        },
+        {
+          "change": -1.5079751066546931,
+          "id": "holding-36",
+          "name": "Asset 36",
+          "value": 2640.536047910702,
+        },
+        {
+          "change": 0.20115736319775923,
+          "id": "holding-37",
+          "name": "Asset 37",
+          "value": 4269.062589774222,
+        },
+        {
+          "change": -0.8637197361667015,
+          "id": "holding-38",
+          "name": "Asset 38",
+          "value": 3511.2246415840164,
+        },
+        {
+          "change": 6.378790925920534,
+          "id": "holding-39",
+          "name": "Asset 39",
+          "value": 4415.406417578119,
+        },
+        {
+          "change": 6.786414174334414,
+          "id": "holding-40",
+          "name": "Asset 40",
+          "value": 4301.528701051105,
+        },
+        {
+          "change": 4.602740491593598,
+          "id": "holding-41",
+          "name": "Asset 41",
+          "value": 1450.511952307929,
+        },
+        {
+          "change": 7.195350796007052,
+          "id": "holding-42",
+          "name": "Asset 42",
+          "value": 7275.175032964978,
+        },
+        {
+          "change": 9.962180650678643,
+          "id": "holding-43",
+          "name": "Asset 43",
+          "value": 8095.166278570183,
+        },
+        {
+          "change": 5.2924071632060254,
+          "id": "holding-44",
+          "name": "Asset 44",
+          "value": 2818.8525848259173,
+        },
+        {
+          "change": 8.487801018917004,
+          "id": "holding-45",
+          "name": "Asset 45",
+          "value": 9135.338525713198,
+        },
+        {
+          "change": -5.942877430091089,
+          "id": "holding-46",
+          "name": "Asset 46",
+          "value": 3344.3836164277773,
+        },
+        {
+          "change": 8.795092571211969,
+          "id": "holding-47",
+          "name": "Asset 47",
+          "value": 9474.274613767879,
+        },
+        {
+          "change": -9.480323780706152,
+          "id": "holding-48",
+          "name": "Asset 48",
+          "value": 9653.005548838646,
+        },
+        {
+          "change": 9.051027068638051,
+          "id": "holding-49",
+          "name": "Asset 49",
+          "value": 707.4926963816308,
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    stickyHeaderIndices={[]}
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 0
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            1026.17
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            -0.44
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 1
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            1136.82
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            -1.16
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 2
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            3696.95
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            8.49
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 3
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            409.53
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            5.83
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 4
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            8295.73
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            8.48
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 5
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            540.66
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            -3.48
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 6
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            9007.87
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            5.63
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 7
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            2442.23
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            7.48
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 8
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            4275.99
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            -1.11
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+              "marginVertical": 4,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "flex": 1,
+              }
+            }
+          >
+            Asset 9
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            7963.82
+          </Text>
+          <Text
+            style={
+              {
+                "flex": 1,
+                "textAlign": "right",
+              }
+            }
+          >
+            8.10
+            %
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "height": 0,
+          }
+        }
+      />
+    </View>
+  </RCTScrollView>
+</View>
+`;
