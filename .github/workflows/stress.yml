@@ -1,0 +1,40 @@
+# .github/workflows/stress.yml
+name: Stress Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  stress-tests:
+    name: Stress Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run stress tests
+        run: npm run test:stress -- --ci --json --outputFile=jest-results.json
+
+      - name: Upload Jest results & snapshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stress-results
+          path: |
+            jest-results.json
+            __tests__/**/*.snap
