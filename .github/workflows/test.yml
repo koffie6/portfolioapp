@@ -30,8 +30,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run sanity tests
-        run: npm run test:sanity -- --ci --json --outputFile=jest-results.json
+      - name: Run sanity tests with coverage
+        run: npm run test:sanity -- --ci --coverage --json --outputFile=jest-results.json
 
       - name: Show Jest summary
         if: always()
@@ -39,7 +39,7 @@ jobs:
           echo "=== Jest Summary (Sanity, Node ${{ matrix.node }}) ==="
           npx jest --ci --reporters=summary || true
 
-      - name: Upload Jest results & snapshots
+      - name: Upload Jest results, snapshots & coverage
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -47,6 +47,8 @@ jobs:
           path: |
             jest-results.json
             __tests__/**/*.snap
+            coverage/lcov.info
+            coverage/coverage-summary.json
 
   stress-tests:
     name: Stress Tests (Node ${{ matrix.node }})
@@ -68,8 +70,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run stress tests
-        run: npm run test:stress -- --ci --json --outputFile=jest-results.json
+      - name: Run stress tests with coverage
+        run: npm run test:stress -- --ci --coverage --json --outputFile=jest-results.json
 
       - name: Show Jest summary
         if: always()
@@ -77,7 +79,7 @@ jobs:
           echo "=== Jest Summary (Stress, Node ${{ matrix.node }}) ==="
           npx jest --ci --reporters=summary || true
 
-      - name: Upload Jest results & snapshots
+      - name: Upload Jest results, snapshots & coverage
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -85,3 +87,5 @@ jobs:
           path: |
             jest-results.json
             __tests__/**/*.snap
+            coverage/lcov.info
+            coverage/coverage-summary.json
