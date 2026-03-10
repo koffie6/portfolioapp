@@ -33,6 +33,12 @@ jobs:
       - name: Run sanity tests
         run: npm run test:sanity -- --ci --json --outputFile=jest-results.json
 
+      - name: Show Jest summary
+        if: always()
+        run: |
+          echo "=== Jest Summary (Sanity, Node ${{ matrix.node }}) ==="
+          npx jest --ci --reporters=summary || true
+
       - name: Upload Jest results & snapshots
         if: always()
         uses: actions/upload-artifact@v4
@@ -64,6 +70,12 @@ jobs:
 
       - name: Run stress tests
         run: npm run test:stress -- --ci --json --outputFile=jest-results.json
+
+      - name: Show Jest summary
+        if: always()
+        run: |
+          echo "=== Jest Summary (Stress, Node ${{ matrix.node }}) ==="
+          npx jest --ci --reporters=summary || true
 
       - name: Upload Jest results & snapshots
         if: always()
